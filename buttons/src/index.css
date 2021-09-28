@@ -1,0 +1,17 @@
+button{
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+
+.blueButton{
+  background-color: darkblue;
+  color: white;
+}
+
+.greenButton{
+  background-color: green;
+  color: white;
+}
