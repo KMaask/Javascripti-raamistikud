@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: "Roboto", cursive;
+  color: #ffffff;
+}
+
+body {
+  background-color: #7cc6fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  background-color: #004970;
+  width: 450px;
+  min-height: 500px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.quiz-start {
+  top: 20%;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  background-color: #252d4a;
+}
+.start {
+  height: 60px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: limegreen;
+  width: 90%;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+.score-section {
+  display: inline-block;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 30%;
+}
+.restart {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.image {
+  width: 240px;
+  height: 170px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  width: 100%;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #0083c9;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px;
+  margin: 7px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #234668;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4472c2;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
