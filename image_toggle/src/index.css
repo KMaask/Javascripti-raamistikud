@@ -1,0 +1,12 @@
+body {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    vh:100%;
+    vw: 100%;
+}
+#root img{
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+}
